@@ -37,11 +37,11 @@ noButton.addEventListener("click", function() {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
-    if (clickCount === 2) mainImage.src = "images/think.png";   // 思考
-    if (clickCount === 3) mainImage.src = "images/angry.png";   // 生气
-    if (clickCount === 4) mainImage.src = "images/crying.png";  // 哭
-    if (clickCount >= 5) mainImage.src = "images/crying.png";  // 之后一直是哭
+    if (clickCount === 1) mainImage.src = "shocked.png"; // 震惊
+    if (clickCount === 2) mainImage.src = "think.png";   // 思考
+    if (clickCount === 3) mainImage.src = "angry.png";   // 生气
+    if (clickCount === 4) mainImage.src = "crying.png";  // 哭
+    if (clickCount >= 5) mainImage.src = "crying.png";  // 之后一直是哭
 
 });
 
@@ -50,12 +50,12 @@ yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text">!!!喜欢你!! ( >᎑<)♡︎ᐝ</h1>
-            <h1 class="yes-text">老婆大人天下无敌第一好~以后也要多爱伟伟一点</h1>
-            <h1 class="yes-text">我知道老婆大人有时会很忙 伟伟也会乖乖等着老婆的</h1>
-            <h1 class="yes-text">我真的好想好想好想老婆 希望老婆忙完之后能对伟伟热情一点~</h1>
+            <h1 class="yes-text">老婆大人天下无敌第一好~以后也要多爱浅蓝一点</h1>
+            <h1 class="yes-text">我知道老婆大人有时会很忙 伟浅蓝会乖乖等着老婆的</h1>
+            <h1 class="yes-text">我真的好想好想好想老婆 希望老婆忙完之后能对浅蓝热情一点~</h1>
             <div style="display: flex;">
-            <img src="images/hug.png" alt="拥抱" class="yes-image">
-            <img src="images/love.png" alt="拥抱" class="yes-image">
+            <img src="hug.png" alt="拥抱" class="yes-image">
+            <img src="love.png" alt="拥抱" class="yes-image">
              </div>
         </div>
     `;
